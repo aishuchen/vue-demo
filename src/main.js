@@ -7,8 +7,8 @@ import {hasLocalToken} from './utils/checkToken'
 
 
 const app = createApp(App);
-app.use(Antd);
-app.use(router);
+app.use(Antd);   // 使用 Antd
+app.use(router);  // 使用路由
 app.mount('#app')
 
 
